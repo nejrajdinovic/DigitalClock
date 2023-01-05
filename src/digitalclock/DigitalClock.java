@@ -57,6 +57,7 @@ public class DigitalClock implements Runnable{
         }catch(Exception e){}
     }
     
+    
     public void printTime(){
         button.setText(timeScreen);
     }
